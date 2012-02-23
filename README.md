@@ -8,7 +8,7 @@ Then, in the omnibox:
 - Type `@username` to go directly to that user's profile (i.e., `http://twitter.com/username`).
 - Type `#hashtag` to go directly to a Twitter search for that hashtag (i.e., `https://twitter.com/#!/search/hashtag`).
 
-To do:
+### To do
 
 - Autoupdating
 - Icon
