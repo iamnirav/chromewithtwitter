@@ -1,7 +1,7 @@
 {
   "name": "Chrome with Twitter",
-  "version": "0.1",
-  "description": "Search Twitter with @ and # in the omnibox. Navigate directly to @usernames and #hashtags.",
+  "version": "0.2",
+  "description": "Search Twitter, navigate directly to @profiles and view #hashtags, all from the omnibox.",
   "omnibox": { "keyword" : "t" },
   "background_page": "background.html",
   "permissions": [
