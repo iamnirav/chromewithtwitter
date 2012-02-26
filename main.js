@@ -14,10 +14,10 @@ chrome.omnibox.onInputChanged.addListener(function (text, suggest) {
 
 chrome.omnibox.onInputEntered.addListener(function (text) {
   if (text.match(/^@/)) {
-    navigate('http://twitter.com/#!/' + text.substring(1));
+    navigate('http://twitter.com/' + text.substring(1));
     return;
   }
-  navigate('http://twitter.com/#!/search/' + text);
+  navigate('http://twitter.com/search/' + text);
 });
 
 chrome.webRequest.onBeforeRequest.addListener(
@@ -26,10 +26,10 @@ chrome.webRequest.onBeforeRequest.addListener(
         var url = $.url(details.url);
         if (url.attr('host') == 'www.google.com' && url.param('sourceid') == 'chrome') {
           if (url.param('q').match(/^%40/)) {
-            navigate('http://twitter.com/#!/' + url.param('q').substring(3));
+            navigate('http://twitter.com/' + url.param('q').substring(3));
             return;
           } else if (url.param('q').match(/^%23/)) {
-            navigate('http://twitter.com/#!/search/' + url.param('q').substring(3));
+            navigate('http://twitter.com/search/' + url.param('q').substring(3));
             return;
           }
         }
