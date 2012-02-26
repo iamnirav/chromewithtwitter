@@ -9,5 +9,9 @@
     "webRequest",
     "webRequestBlocking",
     "<all_urls>"
-  ]
+  ],
+  "icons": {
+    "16" : "16.png",
+    "48" : "48.png"
+  }
 }
