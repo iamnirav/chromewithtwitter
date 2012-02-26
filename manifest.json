@@ -1,6 +1,7 @@
 {
   "name": "Chrome with Twitter",
-  "version": "0.2",
+  "version": "0.3",
+  "update_url" : "http://niravsanghani.com/chromewithtwitter_updates.xml",
   "description": "Search Twitter, navigate directly to @profiles and view #hashtags, all from the omnibox.",
   "omnibox": { "keyword" : "t" },
   "background_page": "background.html",
