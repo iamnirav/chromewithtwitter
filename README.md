@@ -1,6 +1,6 @@
 ### Usage
 
-Install at <http://niravsanghani.com/chromewithtwitter.crx>.
+Install the latest build at <https://github.com/downloads/iamnirav/chromewithtwitter/chromewithtwitter.crx>.
 
 Then, in the omnibox:
 
