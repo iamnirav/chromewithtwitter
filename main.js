@@ -29,7 +29,7 @@ chrome.webRequest.onBeforeRequest.addListener(
             navigate('http://twitter.com/' + url.param('q').substring(3));
             return;
           } else if (url.param('q').match(/^%23/)) {
-            navigate('http://twitter.com/search/' + url.param('q').substring(3));
+            navigate('http://twitter.com/search/' + url.param('q'));
             return;
           }
         }
