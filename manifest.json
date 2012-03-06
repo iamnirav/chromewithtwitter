@@ -1,6 +1,6 @@
 {
   "name": "Chrome with Twitter",
-  "version": "0.3",
+  "version": "0.4",
   "update_url" : "https://github.com/downloads/iamnirav/chromewithtwitter/chromewithtwitter_updates.xml",
   "description": "Search Twitter, navigate directly to @profiles and view #hashtags, all from the omnibox.",
   "omnibox": { "keyword" : "t" },
@@ -9,7 +9,7 @@
     "tabs",
     "webRequest",
     "webRequestBlocking",
-    "<all_urls>"
+    "*://www.google.com/*"
   ],
   "icons": {
     "16" : "16.png",
