@@ -9,7 +9,7 @@
     "tabs",
     "webRequest",
     "webRequestBlocking",
-    "<all_urls>"
+    "*://www.google.com/*"
   ],
   "icons": {
     "16" : "16.png",
